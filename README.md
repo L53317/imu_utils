@@ -72,6 +72,16 @@ sudo apt-get install libdw-dev
 roslaunch imu_utils A3.launch
 ```
 
+* For Realsense D455:
+```
+roslaunch imu_utils d455.launch
+```
+
+* For Ouster os1_32 imu:
+```
+roslaunch imu_utils ouster1_32.launch
+```
+
 Be careful of your roslaunch file:
 
 ```
