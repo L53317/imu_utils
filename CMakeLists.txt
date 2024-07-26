@@ -32,6 +32,8 @@ include_directories(
 
 catkin_package()
 
+catkin_package(CATKIN_DEPENDS code_utils) # Add for code_utils 20240726
+
 set(ACC_LIB_SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/src/acc_lib/allan_acc.cpp
     ${PROJECT_SOURCE_DIR}/src/acc_lib/fitallan_acc.cpp
